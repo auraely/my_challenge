@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/style.css">  
+    <title>website</title>
+</head>
+
+<body>
+    <header class="header">                <!--changing div to header for the navigation row--> 
+        <h1>Hori<span class="seo">seo</span>n</h1>
+        <nav>      <!--changed div to nav and also chnged in Css-->
+            <ul>
+                <li>
+                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                </li>
+                <li>
+                    <a href="#online-reputation-management">Online Reputation Management</a>
+                </li>
+                <li>
+                    <a href="#social-media-marketing">Social Media Marketing</a>
+                </li>
+            </ul>
+        </nav>
+    </header>    
+         <!--changing div to img below and commenting out the 'background img' in Css, adding alt for description-->
+        <figure>
+         <img src ="./assets/images/digital-marketing-meeting.jpg" class="hero" alt ="People attending a meeting" />
+        </figure>
+      
+
+    <main class="content">       <!--changing div to main-->
+        <article class="subcontent">          <!--changing div to article-->
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="a note containing SEO information" />
+            <h2>Search Engine Optimization</h2>
+            <p>
+                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+            </p>
+        </article>      <!-- deleting the id element and creating one class for all 3 classes, class name subcontent-->
+        <article class="subcontent">
+            <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="a person looking at a chart on his laptop" />
+            <h2>Online Reputation Management</h2>
+            <p>
+                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+            </p>
+        </article>
+        <article class="subcontent">
+            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="brainstorming about social media at a table" />
+            <h2>Social Media Marketing</h2>
+            <p>
+                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+            </p>
+        
+        </main>       <!--changing div to aside and article-->
+    <aside class="benefits">        <!--creating one class benefit-for-all to replace the 3 classes -->
+        <article class="benefit-for-all">     <!--and changing the class name in Css and deleting the others classes -->
+            <h3>Lead Generation</h3>
+            <img src="./assets/images/lead-generation.png" alt="an icon representing lead generation" />
+            <p>
+                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+            </p>
+        </article>
+        <article class="benefit-for-all">
+            <h3>Brand Awareness</h3>
+            <img src="./assets/images/brand-awareness.png" alt="an icon representing brand awareness" />
+            <p>
+                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+            </p>
+        </article>
+        <article class="benefit-for-all">
+            <h3>Cost Management</h3>
+            <img src="./assets/images/cost-management.png" alt="an icon representing cost management"></img>
+            <p>
+                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+            </p>
+        </article>
+    </aside>
+    <footer class="footer">   <!--changing to footer to organise it better-->
+        <h2>Made with ❤️️ by Horiseon</h2>
+        <p>
+            &copy; 2019 Horiseon Social Solution Services, Inc.
+        </p>
+    </footer>
+</body>
+
+</html>
